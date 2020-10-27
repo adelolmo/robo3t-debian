@@ -1,0 +1,12 @@
+Package: robo3t
+Version: {{version}}
+Architecture: amd64
+Maintainer: Andoni del Olmo <andoni.delolmo@gmail.com>
+Installed-Size: {{size}}
+Priority: optional
+Section: database
+Homepage: https://github.com/Studio3T/robomongo
+Description: Native cross-platform MongoDB management tool
+ Robo 3T (formerly Robomongo *) is a shell-centric cross-platform MongoDB management tool.
+ Unlike most other MongoDB admin UI tools, Robo 3T embeds the actual mongo shell in a tabbed interface
+ with access to a shell command line as well as GUI interaction.

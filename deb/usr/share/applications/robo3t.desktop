@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Robo 3T
+Version={{version}}
+GenericName=Robo 3T - Native cross-platform MongoDB management tool
+Comment=MongoDB managing assistant
+Exec=/opt/robo3t/bin/robo3t
+Icon=/opt/robo3t/robo3t.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=GNOME;GTK;Development;Database;
