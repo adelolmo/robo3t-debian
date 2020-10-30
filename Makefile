@@ -19,7 +19,7 @@ prepare:
 
 $(TAR_PATH):
 	@echo Downloading tar ball...
-	wget --quiet -O $(TAR_PATH) https://github.com/Studio3T/robomongo/releases/download/v1.4.1/robo3t-1.4.1-linux-x86_64-122dbd9.tar.gz
+	wget --quiet -O $(TAR_PATH) https://github.com/Studio3T/robomongo/releases/download/v1.4.2/robo3t-1.4.2-linux-x86_64-8650949.tar.gz
 
 cp:
 	cp -R deb/* $(TMP_DIR)
