@@ -2,4 +2,4 @@
 
     apt install fakeroot
     make
-    dpkg -i build/release/robo3t_1.4.1_amd64.deb
+    dpkg -i build/release/robo3t_1.4.2_amd64.deb
