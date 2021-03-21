@@ -1,4 +1,4 @@
-# Robo3T Debian Pacakge
+# Robo3T Debian Package
 
 Find the releases in https://github.com/Studio3T/robomongo/releases
 
