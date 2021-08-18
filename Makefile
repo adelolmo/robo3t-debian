@@ -11,6 +11,7 @@ TAR_URL = https://github.com/Studio3T/robomongo/releases/download/v1.4.3/robo3t-
 
 package: clean prepare $(TAR_PATH) cp control
 	@echo Building package...
+	chmod 0555 $(TMP_DIR)/DEBIAN/p*
 	fakeroot dpkg-deb -b -z9 $(TMP_DIR) $(RELEASE_DIR)/robo3t_$(VERSION)_amd64.deb
 
 clean:
